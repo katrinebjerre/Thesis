@@ -1,0 +1,24 @@
+{
+  "targets": [
+    0,
+    4,
+    12,
+    20,
+    24
+  ],
+  "val_ratio": 0.4,
+  "best_ang": 2.087211650960586,
+  "best_config": {
+    "num_blocks": 4,
+    "base_channel": 32,
+    "adaptive_pool_out": [
+      3,
+      4
+    ],
+    "hidden_dim": 32,
+    "activation": "leakyrelu",
+    "loss_function": "angular_error",
+    "optimizer": "adam",
+    "learning_rate": 0.001
+  }
+}
